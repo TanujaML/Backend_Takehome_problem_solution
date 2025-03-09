@@ -15,7 +15,7 @@ This project uses Poetry for dependency management. To install:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pharma-papers.git
+git clone https://github.com/yourusername/pharma-papers.git](https://github.com/TanujaML/Backend_Takehome_problem_solution.git
 cd pharma-papers
 
 # Install dependencies using Poetry
