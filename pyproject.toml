@@ -1,0 +1,27 @@
+[project]
+name = "pharma-papers"
+version = "0.1.0"
+description = "Tool to fetch research papers from PubMed with pharmaceutical company affiliations"
+authors = [
+    {name = "Tanuja"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "biopython (>=1.85,<2.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "pytest (>=8.3.5,<9.0.0)",
+    "typing-extensions (>=4.12.2,<5.0.0)",
+    "typer (>=0.15.2,<0.16.0)",
+    "rich (>=13.9.4,<14.0.0)"
+]
+
+
+[tool.poetry.scripts]
+get-papers-list = "pharma_papers.cli:app"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
